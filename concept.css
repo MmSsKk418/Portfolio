@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.title{
+  height: 310px;
+  background-image: url(ブレンド.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title p{
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.feature{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: flex-start;
+}
+
+.feature-text{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-text h2{
+  text-decoration: underline;
+}
+
+
+.link-button-area{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.link-button{
+  background-color: #f8c896;
+  display: inline-block;
+  min-width: 180px;
+  line-height: 48px;
+  border-radius: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.link-button:hover{
+  background-color: #c4945f;
+}
+
+
